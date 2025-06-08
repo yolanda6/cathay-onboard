@@ -1,0 +1,25 @@
+[project]
+name = "mcp-coffee-shop"
+version = "0.1.0"
+description = "A Model Context Protocol server for a coffee shop"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-adk>=0.3.0",
+    "markdownify>=0.13.1",
+    "mcp[cli]>=1.0.0",
+    "protego>=0.3.1",
+    "pydantic>=2.0.0",
+    "readabilipy>=0.2.0",
+    "requests>=2.32.3",
+]
+
+[project.scripts]
+mcp-coffee-shop = "mcp_coffee_shop:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+dev-dependencies = ["pyright>=1.1.389", "ruff>=0.7.3"]

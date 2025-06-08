@@ -1,0 +1,26 @@
+# Eva Onboarding Concierge Dependencies
+# Core ADK and Google Cloud dependencies for Agent Engine deployment
+google-adk>=0.5.0
+google-cloud-aiplatform[adk,agent_engines]>=1.94.0
+google-cloud-storage>=2.10.0
+google-genai>=0.3.0
+vertexai>=1.38.0
+pydantic>=2.0.0
+typing-extensions>=4.0.0
+
+# PDF processing for HR policy documents
+pdfplumber>=0.7.0
+PyPDF2>=3.0.0
+
+# Command line argument parsing for deployment scripts
+absl-py>=1.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Optional development dependencies
+pytest>=7.0.0
+pytest-asyncio
+black
+isort
+flake8

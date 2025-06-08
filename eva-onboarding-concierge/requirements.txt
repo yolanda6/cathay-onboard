@@ -1,0 +1,16 @@
+# Eva Onboarding Concierge - Requirements
+# Google Agent Development Kit and dependencies
+
+# Core ADK dependencies
+google-genai
+adk
+
+# Additional dependencies for functionality
+python-dotenv
+typing-extensions
+pydantic
+
+# Optional dependencies for enhanced features
+requests
+pandas
+numpy
